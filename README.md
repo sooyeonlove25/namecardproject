@@ -65,6 +65,7 @@ elif menu == 2 :
        
         print("명함이 수정되었습니다", card_list[list_num-1])
 
+# 명함삭제 이수연
 elif menu == 3 :
         print('명함 삭제')
 
@@ -80,3 +81,5 @@ elif menu == '5':
 
  else:
     print('메뉴를 잘못 선택하셨습니다. 다시 선택해주세요.\n')
+
+    
