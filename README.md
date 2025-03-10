@@ -65,4 +65,3 @@ elif menu == 2 :
         print("명함이 수정되었습니다", card_list[list_num-1])
 
 
-# 명함수정
