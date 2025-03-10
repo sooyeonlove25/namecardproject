@@ -1,3 +1,10 @@
+
+# name = input('이름을 입력하세요 >>> ')
+# email = input('이메일을 입력하세요 >>> ')
+# number = input('전화번호를 입력하세요 >>> ')
+# email = input('이메일을 입력하세요 >>> ')
+# job = input('직책을 입력하세요 >>> ')
+# group = input('부서를 입력하세요 >>> ')
 # namecardproject
 # display = '''
 ----------------------------------------------------------
@@ -58,3 +65,4 @@ elif menu == 2 :
         print("명함이 수정되었습니다", card_list[list_num-1])
 
 
+# 명함수정
