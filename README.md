@@ -67,12 +67,22 @@ elif menu == 2 :
 
 elif menu == 3 :
         print('명함 삭제')
+        print(card_display)
+        list_num = input('삭제할 명함의의 번호 입력 >')
+        number = int(input('수정할 부분 번호 입력 >'))
+        if number == 1 :
+            del card_list[list_num-1][0]
+        if number == 2 :
+            del ard_list[list_num-1][0]
+        if number == 3 :
+            del ard_list[list_num-1][0]
+        if number == 4 :
+            del ard_list[list_num-1][0]
+
 
 elif menu == '4':
         print('명함 목록 보기')
-        if 명함: 
-         for person in 명함:
-                print(person)
+
 
 elif menu == '5':
         print('프로그램 종료')
