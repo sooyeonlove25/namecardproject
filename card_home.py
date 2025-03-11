@@ -40,20 +40,20 @@ while True:
                 if card_list[index][3] == email :
                     check = 1
                     break
-                # if check = 0:
+                if check = 0:
                     break
             card_list.append([name, tel, belong, email])
             print(card_list)
 
-    while True:
-        item = input('수정할 항목을 선택하세요(1. 이름 2. 전화번호, 3.소속, 4. 이메일 5. 종료)')
-        if item == '5':
-          break
-        item = int(item)
-        if item in (1,2,3,4):
-            card_list[index][item-1] = input('수정할 값을 입력 >>')
+        while True:
+            item = input('수정할 항목을 선택하세요(1. 이름 2. 전화번호, 3.소속, 4. 이메일 5. 종료)')
+            if item == '5':
+            break
+            item = int(item)
+            if item in (1,2,3,4):
+                card_list[index][item-1] = input('수정할 값을 입력 >>')
  
-        if check == 0:
+        else:
             print("데이터가 없습니다")
             # 수정필요
             

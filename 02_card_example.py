@@ -60,11 +60,11 @@ while menu != '5':
         if number == 1 :
             del card_list[list_num-1][0]
         if number == 2 :
-            del ard_list[list_num-1][0]
+            del card_list[list_num-1][0]
         if number == 3 :
-            del ard_list[list_num-1][0]
+            del card_list[list_num-1][0]
         if number == 4 :
-            del ard_list[list_num-1][0]
+            del card_list[list_num-1][0]
         if number == 5 :
             del card_list[list_num-1]
        
