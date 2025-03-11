@@ -34,7 +34,7 @@ while True:
     elif menu == '2':
         print(card_display)
         while True : 
-            email = input('이메일 >>>')
+            email = input('등록된 이메일을 입력하세요 >>')
             check = 0
             for index in range(len(card_list)):
                 if card_list[index][3] == email :
@@ -46,16 +46,19 @@ while True:
             print(card_list)
 
     while True:
-        item = input('수정할 항목을 선택하세요(1. 이름 2. 전화번호, 3.주소, 4. 종료)')
-        if item == '4':
+        item = input('수정할 항목을 선택하세요(1. 이름 2. 전화번호, 3.소속, 4. 이메일 5. 종료)')
+        if item == '5':
           break
         item = int(item)
-        if item in (1,2,3):
+        if item in (1,2,3,4):
             card_list[index][item-1] = input('수정할 값을 입력 >>')
  
         if check == 0:
             print("데이터가 없습니다")
-        elif menu == 3:
+            # 수정필요
+            
+            
+    elif menu == 3:
             print('명함삭제')
 
 
