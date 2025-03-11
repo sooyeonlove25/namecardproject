@@ -239,7 +239,7 @@ while True:
         email = input("수정할 명함의 이메일을 입력 >>> ").strip()
         for card in card_list:
             if card[2] == email:  # 이메일이 일치하는 명함을 찾음
-                found = True
+                found = True 
                 print(f"현재 명함 정보: {card}")
                 card[0] = input("수정할 이름: ").strip()
                 card[1] = input("수정할 전화번호: ").strip()
@@ -248,8 +248,8 @@ while True:
                 print(f"{email}님의 명함이 수정되었습니다.")
                 break
                         
-        if not found:
-            print("해당 이메일을 가진 명함이 없습니다.")
+             if not found:
+                print("해당 이메일을 가진 명함이 없습니다.")
 # 3. 명함 삭제
     elif menu == '3':
         print('명함 삭제')
